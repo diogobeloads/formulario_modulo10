@@ -1,0 +1,50 @@
+body {
+  font-family: "Fira Sans", sans-serif;
+  background: linear-gradient(
+    90deg,
+    #4b6cb7 0%,
+    #182848 100%
+  ); /* Aplica o gradiente de tal cor até a cor mais escura ou mais clara*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#formulario {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.7
+  ); /* Aplica a Transparência de 70% */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4b6cb7;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4b6cd8;
+}

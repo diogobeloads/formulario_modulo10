@@ -29,13 +29,7 @@ function validarFormulario() {
   let telefone = document.getElementById("telefone").value;
 
   // Para verificar se os campos nome e email estão preenchidos corretamente
-  if (
-    nome === "" ||
-    email === "" ||
-    cpf === "" ||
-    cep === "" ||
-    telefone === ""
-  ) {
+  if (nome === "" || email === "") {
     alert("Por favor, preencha todos os campos.");
   } else {
     // Se todos os campos estiverem preenchidos, exibir um alerta de confirmação
